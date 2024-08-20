@@ -1,0 +1,57 @@
+h1{
+    width: 210px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+    font-size: 45px;
+    background-color: #f60a;
+    color: #fff;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+.table tr, .table td{
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+}
+
+tr, td{
+    text-align: center;
+}
+
+.td-num{
+    width: 35px;
+}
+
+.td-img{
+    width: 80px;
+}
+
+.td-name{
+    width: 100px;
+}
+
+.td-type{
+    width: 100px;
+}
+
+.oculto{
+    border: none;
+    display: none;
+}
+
+.td-tabla{
+    width: 66.5px;
+}
