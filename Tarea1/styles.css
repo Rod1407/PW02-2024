@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+}
+.contenedor{
+    display: flex;
+}
+
+.perfil, h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.perfil{
+    border-radius: 30px;
+}
+
+.sobre_mi{
+    background-color: #00c2;
+}
+
+h2{
+    padding-left: 30px;
+}
+
+.section1{
+    background-color: #eee5;
+}
+
+img{
+    width: 130px;
+    height: auto;
+    margin: 20px;
+}
+
+p{
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+nav li {
+    display: inline-block;
+    position: relative;
+  }
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+nav li:hover .submenu {
+    display: block;
+  }
+
+nav{
+    width: auto;
+    background-color: rgba(27, 27, 92, 0.274);
+    text-align: center;
+  }
+
+ul, li{
+    width: 100%;
+}
+
+.menu_nav:hover{
+    background-color: rgba(27, 27, 92, 0.274);
+}
+
+h3{
+    margin: 0;
+    margin-left: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.hobbies_img{
+    width: 170px;
+    height: 110px;
+}
+
+.hobbies_img:hover{
+    width: 190px;
+    height: 130px;
+}
+
+.footer {
+    background-color: #383333; /* Color de fondo del footer */
+    color: #bbb1b1; /* Color del texto */
+    padding: 20px 0; /* Espaciado interno */
+    text-align: center; /* Centra el texto en el footer */
+    border-top: 1px solid #ddd; /* Línea superior del footer */
+}
+
+.footer-content {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 0 20px; /* Espaciado interno horizontal */
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0; /* Margen superior e inferior */
+}
+
+.footer-links li {
+    display: inline;
+    margin: 0 10px; /* Espaciado entre los enlaces */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #bbb1b1;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+main{
+    flex: 1;
+    padding-bottom: 165px;
+}
