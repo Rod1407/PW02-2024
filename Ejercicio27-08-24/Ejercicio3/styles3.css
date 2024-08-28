@@ -1,0 +1,14 @@
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    display: flex;
+    justify-content: right;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
